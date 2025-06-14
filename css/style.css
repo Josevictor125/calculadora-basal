@@ -1,0 +1,83 @@
+body{
+    background-image: url(img/corrida.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size:cover;
+    background-color: #1900ffa9;
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    border:solid 8px, rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
+    border-bottom: 20%;
+    background-color: rgba(0, 0, 0, 0.295);
+ 
+   
+    
+}
+
+legend{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid 5px, white ;
+    border-radius: 10px;
+    background-color: #4f3cfc8e;
+   
+
+}
+.legenda1{
+    border-radius: 30px;
+    position: relative;
+}
+.nome{
+    border: solid 1px;
+    border-radius: 3px;
+    box-shadow: 2px 1px 5px white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 95px;
+    cursor: pointer;
+    
+
+
+}
+
+h2{
+    margin-left: 50px;
+}
+.nivel{
+    margin-left: 102px;
+
+}
+button{
+    
+    margin-left: 80px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px black;
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #4f3cfc8e;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    
+    
+    
+
+}
+
