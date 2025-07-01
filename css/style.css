@@ -43,8 +43,12 @@ legend{
     position: relative;
 }
 
+.sexo{
+    margin-left: 100px;
+}
+
 .alinha{
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
 /*coluna dos inpult : idade/ altura/ peso */
@@ -65,7 +69,7 @@ legend{
 h2{
     margin-left: 50px;
 }
-.nivel{
+.input{
     margin-left: 102px;
 
 }
