@@ -37,18 +37,25 @@ legend{
    
 
 }
+/*titulo calculadora basal*/
 .legenda1{
     border-radius: 30px;
     position: relative;
 }
+
+.alinha{
+    margin-left: 110px;
+}
+
+/*coluna dos inpult : idade/ altura/ peso */
 .nome{
     border: solid 1px;
     border-radius: 3px;
     box-shadow: 2px 1px 5px white;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     font-size: 25px;
-    margin-left: 95px;
+    margin-left: 120px;
     cursor: pointer;
     
 
