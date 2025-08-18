@@ -16,12 +16,11 @@ body{
 fieldset{
     border:solid 8px, rgba(0, 0, 0, 0.295);
     border-radius: 20px;
-    border-bottom: 20%;
+    border-bottom: 20%;  
     background-color: rgba(0, 0, 0, 0.295);
- 
-   
-    
 }
+    
+
 
 legend{
     font-size: 20px;
@@ -48,18 +47,18 @@ legend{
 }
 
 .alinha{
-    margin-left: 100px;
+    margin-left: 133px;
 }
 
 /*coluna dos inpult : idade/ altura/ peso */
 .nome{
     border: solid 1px;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 2px 1px 5px white;
-    width: 150px;
+    width: 35%;
     height: 40px;
     font-size: 25px;
-    margin-left: 120px;
+    margin-left: 150px;
     cursor: pointer;
     
 
@@ -70,15 +69,15 @@ h2{
     margin-left: 50px;
 }
 .input{
-    margin-left: 102px;
+    margin-left: 140px;
 
 }
 button{
     
-    margin-left: 80px;
+    margin-left: 95px;
     border-radius: 5px;
     text-shadow: 2px 2px 2px black;
-    width: 80px;
+    width: 20%;
     height: 40px;
     color: white;
     background-color: #4f3cfc8e;
@@ -91,4 +90,9 @@ button{
     
 
 }
-
+ 
+ /* ajustando a tela pelo Media Query  */
+/*@media (min-width: 480px){
+    
+}*/
+ 

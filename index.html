@@ -8,43 +8,48 @@
 <body>
     
     <fieldset>
+        <form action="" method="get" id="myform">
         <div class="legenda1"><legend>Calculadora de Taxa Metabólica Basal</legend></div>
          
-        <h2>Nível de Atividade Fisica</h2>
-
-        <input type="radio" name="atividade"> Sedentário 1.2
-        <input type="radio" name="atividade"> Moderado 1.5
-        <input type="radio" name="atividade"> Atleta 1.9
-
-        <h2 class="sexo"> Selecione o sexo</h2>
-
+        <br>
         <div class="alinha">
-        <input type="radio" name="sexo" value="M">Masculino
-        <input type="radio" name="sexo" value="F">Feminino
-        </div>
+        <input type="radio" id="sexo_masculino" name="sexo" value="MASCULINO">
+        <label for="sexo_masculino">Masculino</label>
+
+        <input type="radio" id="sexo_feminino" name="sexo" value="FEMININO">
+        <label for="sexo_feminino">Feminino</label>
+        </div>  
 
         <h2 class="input">Digite sua idade</h2>
 
-        <input class="nome" type="number" name="idade" id="IdAdE">
+        <label for="Digite_idade">
+        <input class="nome" type="number" id="idade" name="idade_usuario">
         <br />
 
         <h2 class="input">Digite sua altura</h2>
 
-        <input class="nome" type="number" name="altura" id="AlTuRa">
+        <label for="Digite_altura">
+        <input class="nome" type="number" id="altura" name="altura_usuario">
+        </label>
         <br />
 
         <h2 class="input">Digite Seu Peso</h2>
 
-        <input class="nome" type="number" name="numero" id="NuMeRo">
+        <label for="Digite_peso">
+        <input class="nome" type="number" id="peso" name="peso_usuario">
+        </label>
         <br /> <br />
         
 
-        <div class="button">
-        <button>Calcular</button>
-        <button>Apagar</button>
+        <div class="butto">
+        <button type="submit" id="calcularBtn">Calcular</button>
+        <button type="reset" id="apagarBtn">Apagar</button>
         </div>
-      
+  
+        
 
     </fieldset>
+    </form>
+     <script src="js/CalcuTmB.js"></script>
 </body>
 </html>
