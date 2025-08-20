@@ -69,8 +69,20 @@ h2{
     margin-left: 50px;
 }
 .input{
-    margin-left: 140px;
+    margin-left: 30%;
 
+}
+.Nivel{
+    margin-left:20%;
+}
+.nivel2{
+     width: 170px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 150px;
+     border: solid 1px;
+    border-radius: 5px;
+    
 }
 button{
     
@@ -89,6 +101,10 @@ button{
     
     
 
+}
+.atividade_1{
+   display: flex;
+   margin-left: auto;
 }
  
  /* ajustando a tela pelo Media Query  */

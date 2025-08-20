@@ -5,51 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Calculadora TMB</title>
+</head>
 <body>
-    
     <fieldset>
         <form action="" method="get" id="myform">
-        <div class="legenda1"><legend>Calculadora de Taxa Metabólica Basal</legend></div>
-         
-        <br>
-        <div class="alinha">
-        <input type="radio" id="sexo_masculino" name="sexo" value="MASCULINO">
-        <label for="sexo_masculino">Masculino</label>
+            <div class="legenda1"><legend>Calculadora de Taxa Metabólica Basal</legend></div>
 
-        <input type="radio" id="sexo_feminino" name="sexo" value="FEMININO">
-        <label for="sexo_feminino">Feminino</label>
-        </div>  
+            <br>
+            <div class="alinha">
+                <input type="radio" id="sexo_masculino" name="sexo" value="MASCULINO">
+                <label for="sexo_masculino">Masculino</label>
 
-        <h2 class="input">Digite sua idade</h2>
+                <input type="radio" id="sexo_feminino" name="sexo" value="FEMININO">
+                <label for="sexo_feminino">Feminino</label>
+            </div>
 
-        <label for="Digite_idade">
-        <input class="nome" type="number" id="idade" name="idade_usuario">
-        <br />
+            <h2 class="input">Digite sua idade</h2>
+            <label for="idade">
+                <input class="nome" type="number" id="idade" name="idade_usuario">
+            </label>
 
-        <h2 class="input">Digite sua altura</h2>
+            <h2 class="input">Digite sua altura</h2>
+            <label for="altura">
+                <input class="nome" type="number" id="altura" name="altura_usuario">
+            </label>
 
-        <label for="Digite_altura">
-        <input class="nome" type="number" id="altura" name="altura_usuario">
-        </label>
-        <br />
+            <h2 class="input">Digite seu peso</h2>
+            <label for="peso">
+                <input class="nome" type="number" id="peso" name="peso_usuario">
+            </label>
 
-        <h2 class="input">Digite Seu Peso</h2>
+            <h2 class="Nivel">Nível de Atividade Física</h2>
+            <div class="atividade_1">
+            <label for="atividade">
+                <select class="nivel2" id="atividade" name="atividade">
+                    <option value="1.2">Sedentário </option>
+                    <option value="1.375">Levemente ativo </option>
+                    <option value="1.55">Moderadamente ativo </option>
+                </select>
+            </label>
+            </div>
 
-        <label for="Digite_peso">
-        <input class="nome" type="number" id="peso" name="peso_usuario">
-        </label>
-        <br /> <br />
-        
+            <br><br>
+            <div class="butto">
+                <button type="submit" id="calcularBtn">Calcular</button>
+                <button type="reset" id="apagarBtn">Apagar</button>
+            </div>
 
-        <div class="butto">
-        <button type="submit" id="calcularBtn">Calcular</button>
-        <button type="reset" id="apagarBtn">Apagar</button>
-        </div>
-  
-        
-
+            <h2 id="resultado"></h2>
+        </form>
     </fieldset>
-    </form>
-     <script src="js/CalcuTmB.js"></script>
+
+    <script src="js/CalcuTmB.js"></script>
 </body>
 </html>
