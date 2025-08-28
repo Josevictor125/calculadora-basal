@@ -28,7 +28,7 @@ document.getElementById("calcularBtn").addEventListener("click", function (event
         !sexo ||
         isNaN(atividade)
     ) {
-        document.getElementById("resultado").textContent = "Por favor, preencha todos os campos corretamente.";
+        alert("Por favor, preencha todos os campos corretamente.");
         return;
     }
 

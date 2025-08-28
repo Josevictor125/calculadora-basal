@@ -27,8 +27,7 @@ legend{
     text-shadow: 2px 2px 2px black;
     color: white;
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 80px;
     border: solid 5px, white ;
     border-radius: 10px;
     background-color: #4f3cfc8e;
@@ -39,14 +38,11 @@ legend{
 .legenda1{
     border-radius: 30px;
     position: relative;
-}
-
-.sexo{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .alinha{
-    margin-left: 133px;
+    margin-left: 145px;
 }
 
 /*coluna dos inpult : idade/ altura/ peso */
@@ -76,7 +72,7 @@ h2{
      width: 170px;
     height: 40px;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 160px;
      border: solid 1px;
     border-radius: 5px;
     
@@ -96,10 +92,6 @@ button{
 }
 .button{
     display: flex;
-    
-    
-    
-
 }
 .atividade_1{
    display: flex;
@@ -116,11 +108,26 @@ select {
   appearance: none;         /* Propriedade padrão (em estágio de testes, mas bom incluir) */
 }
 
- /*
-input[type="number"] {
-  -webkit-appearance: none; /* Para navegadores baseados em WebKit (Chrome, Safari, Edge) 
-  -moz-appearance: textfield;  /* Para Firefox 
-  appearance: none; /* Para navegadores mais modernos (o padrão) 
-  margin: 0; /* Para garantir que não haja margem extra 
+@media screen and (min-width: 600px){
+
+    body{
+    margin-left: 18%;
+    margin-top: 5%;
 }
-*/
+   fieldset{
+    margin-right: 200%;
+  
+   
+}
+    legend{
+    font-size: 15px;
+    margin-left: 2px;
+    margin-top: 10px;
+   
+}
+.legenda1{
+    margin-left: 80px;
+}
+
+}
+ 
